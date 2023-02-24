@@ -3,7 +3,6 @@ import { createRoot } from "react-dom/client";
 
 import App from "./App";
 import ScheduleChart from "./ScheduleChart";
-// import SchedulingChart from "./SchedulingChart";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -12,6 +11,5 @@ root.render(
   <StrictMode>
     <App />
     <ScheduleChart />
-    {/* <SchedulingChart /> */}
   </StrictMode>
 );
